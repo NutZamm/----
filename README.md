@@ -862,7 +862,7 @@
             NameQuest = "CandyQuest1"
             LevelQuest = 1
             NameMon = "Snow Demon"
-            CFrameQuest = CFrame.new(-1145.20325, 16.1072521, -14445.0625, 0.198572725, 5.55389912e-09, 0.980086148, 4.46671722e-09, 1, -6.57173604e-09, -0.980086148, 5.68273562e-09, 0.198572725)
+            CFrameQuest = CFrame.new(-1146.80810546875, 16.103836059570312, -14444.353515625)
             CFrameMon = CFrame.new(-1426.099, 116.902061, -14604.5049, 0.00378525164, -1.62216129e-10, -0.999992847, 2.66110856e-10, 1, -1.6120999e-10, 0.999992847, -2.65498734e-10, 0.00378525164)
 			SPAWNPOINT = "CandyCane"
 		elseif MyLevel >= 2424 or _G.Select_Mob_Farm == "Snow Demon [Lv. 2425]" then
@@ -870,8 +870,8 @@
             NameQuest = "CandyQuest1"
             LevelQuest = 2
             NameMon = "Snow Demon"
-            CFrameQuest = CFrame.new(-1145.20325, 16.1072521, -14445.0625, 0.198572725, 5.55389912e-09, 0.980086148, 4.46671722e-09, 1, -6.57173604e-09, -0.980086148, 5.68273562e-09, 0.198572725)
-            CFrameMon = CFrame.new(-934.34198, 39.3606987, -14556.3701, 0.141181618, -1.09899077e-08, -0.989983737, -2.34980071e-08, 1, -1.44521515e-08, 0.989983737, 2.53030219e-08, 0.141181618)
+            CFrameQuest = CFrame.new(-1146.80810546875, 16.103836059570312, -14444.353515625)
+            CFrameMon = CFrame.new(-963.0213012695312, 26.1063289642334, -14289.576171875)
 			SPAWNPOINT = "CandyCane"
 		end
         end
@@ -2883,7 +2883,7 @@ end
         while task.wait() do
             if _G.Extra_Fast_Attack then
                 pcall(function()
-                    wait(0.2)
+                    wait(0.05)
                     local AC = CbFw2.activeController
                     for i = 1,1 do 
                         local bladehit = require(game.ReplicatedStorage.CombatFramework.RigLib).getBladeHits(
@@ -6969,7 +6969,7 @@ end
                     elseif _G.Select_Island == "Desert" then
                         ByPass(CFrame.new(944.15789794922, 20.919729232788, 4373.3002929688))
                     elseif _G.Select_Island == "Snow Island" then
-                        ByPass(CFrame.new1347.8067626953, 104.66806030273, -1319.7370605469))
+                        ByPass(CFrame.new(347.8067626953, 104.66806030273, -1319.7370605469))
                     elseif _G.Select_Island == "MarineFord" then
                         ByPass(CFrame.new(-4914.8212890625, 50.963626861572, 4281.0278320313))
                     elseif _G.Select_Island == "Colosseum" then
@@ -7005,9 +7005,9 @@ end
                     elseif _G.Select_Island == "Green Zone" then
                         ByPass(CFrame.new(-2448.5300292969, 73.016105651855, -3210.6306152344))
                     elseif _G.Select_Island == "Factory" then
-                        ByPass(CFrame.new(CFrame.new(424.12698364258, 211.16171264648, -427.54049682617))
+                        ByPass(CFrame.new(424.12698364258, 211.16171264648, -427.54049682617))
                     elseif _G.Select_Island == "Colossuim" then
-                        ByPass(CFrame.new( CFrame.new(-1503.6224365234, 219.7956237793, 1369.3101806641))
+                        ByPass(CFrame.new(-1503.6224365234, 219.7956237793, 1369.3101806641))
                     elseif _G.Select_Island == "Zombie Island" then
                        ByPass(CFrame.new(-5622.033203125, 492.19604492188, -781.78552246094))
                     elseif _G.Select_Island == "Two Snow Mountain" then
